@@ -13,6 +13,9 @@
 		EFF0B72322FE13FA002B0676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF0B72122FE13FA002B0676 /* LaunchScreen.storyboard */; };
 		EFF0B73022FE16D7002B0676 /* ShoppingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0B72F22FE16D7002B0676 /* ShoppingItems.swift */; };
 		EFF0B73222FE17F6002B0676 /* ShoppingItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0B73122FE17F6002B0676 /* ShoppingItemsController.swift */; };
+		EFF0B73422FE24A1002B0676 /* SubmitOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0B73322FE24A1002B0676 /* SubmitOrderViewController.swift */; };
+		EFF0B73622FE24B4002B0676 /* ShoppingListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0B73522FE24B4002B0676 /* ShoppingListCollectionViewController.swift */; };
+		EFF0B73822FE24CD002B0676 /* ShoppingListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0B73722FE24CD002B0676 /* ShoppingListCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EFF0B72422FE13FA002B0676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFF0B72F22FE16D7002B0676 /* ShoppingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItems.swift; sourceTree = "<group>"; };
 		EFF0B73122FE17F6002B0676 /* ShoppingItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemsController.swift; sourceTree = "<group>"; };
+		EFF0B73322FE24A1002B0676 /* SubmitOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOrderViewController.swift; sourceTree = "<group>"; };
+		EFF0B73522FE24B4002B0676 /* ShoppingListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCollectionViewController.swift; sourceTree = "<group>"; };
+		EFF0B73722FE24CD002B0676 /* ShoppingListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 		EFF0B72A22FE141E002B0676 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EFF0B73322FE24A1002B0676 /* SubmitOrderViewController.swift */,
+				EFF0B73522FE24B4002B0676 /* ShoppingListCollectionViewController.swift */,
+				EFF0B73722FE24CD002B0676 /* ShoppingListCollectionViewCell.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -179,7 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF0B73022FE16D7002B0676 /* ShoppingItems.swift in Sources */,
+				EFF0B73422FE24A1002B0676 /* SubmitOrderViewController.swift in Sources */,
 				EFF0B71922FE13F9002B0676 /* AppDelegate.swift in Sources */,
+				EFF0B73622FE24B4002B0676 /* ShoppingListCollectionViewController.swift in Sources */,
+				EFF0B73822FE24CD002B0676 /* ShoppingListCollectionViewCell.swift in Sources */,
 				EFF0B73222FE17F6002B0676 /* ShoppingItemsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
