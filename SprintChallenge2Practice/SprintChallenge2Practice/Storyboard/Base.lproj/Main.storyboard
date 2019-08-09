@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Shopping List Collection View Controller-->
+        <!--Shopping List-->
         <scene sceneID="g3z-Rc-q4X">
             <objects>
                 <collectionViewController id="bTS-Dm-ub3" customClass="ShoppingListCollectionViewController" customModule="SprintChallenge2Practice" customModuleProvider="target" sceneMemberID="viewController">
@@ -58,10 +58,10 @@
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstItem="t5Y-xG-bWA" firstAttribute="top" secondItem="2gd-Lr-qLd" secondAttribute="top" id="2hd-o5-Jjj"/>
-                                                <constraint firstItem="t5Y-xG-bWA" firstAttribute="leading" secondItem="2gd-Lr-qLd" secondAttribute="leading" id="IyZ-if-zWc"/>
-                                                <constraint firstAttribute="bottom" secondItem="t5Y-xG-bWA" secondAttribute="bottom" id="gPO-Ku-WTg"/>
-                                                <constraint firstAttribute="trailing" secondItem="t5Y-xG-bWA" secondAttribute="trailing" id="ouz-ph-oSl"/>
+                                                <constraint firstItem="t5Y-xG-bWA" firstAttribute="leading" secondItem="2gd-Lr-qLd" secondAttribute="leading" id="4Ho-ek-bBN"/>
+                                                <constraint firstItem="t5Y-xG-bWA" firstAttribute="top" secondItem="2gd-Lr-qLd" secondAttribute="top" id="gwI-aM-yT7"/>
+                                                <constraint firstAttribute="trailing" secondItem="t5Y-xG-bWA" secondAttribute="trailing" id="qg0-6j-hHI"/>
+                                                <constraint firstAttribute="bottom" secondItem="t5Y-xG-bWA" secondAttribute="bottom" id="vlQ-TL-UNo"/>
                                             </constraints>
                                         </view>
                                     </subviews>
@@ -84,7 +84,7 @@
                             <outlet property="delegate" destination="bTS-Dm-ub3" id="sFI-FF-IcY"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="drc-WH-3Sj">
+                    <navigationItem key="navigationItem" title="Shopping List" id="drc-WH-3Sj">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="M4y-Kl-hyB">
                             <connections>
                                 <segue destination="c5C-9I-1E4" kind="show" identifier="ShoppingDetail" id="Waj-Bv-9oG"/>
@@ -130,6 +130,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjN-NB-vYt">
                                 <rect key="frame" x="183" y="200.5" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="c5C-9I-1E4" eventType="touchUpInside" id="i0Y-3Z-NAI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
