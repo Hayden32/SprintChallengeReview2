@@ -14,6 +14,9 @@ class SubmitOrderViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var addressTextField: UITextField!
     
+    // MARK: - Properties
+    var shoppingItemController: ShoppingItemsController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
